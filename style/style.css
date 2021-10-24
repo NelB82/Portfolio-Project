@@ -1,3 +1,17 @@
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto Mono", monospace;
+}
+header {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.homeLogo {
+  color: black;
+}
+.homeLogo:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 60%;
 }
