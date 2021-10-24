@@ -1,9 +1,33 @@
-h1 {
-  font-family: "Roboto Mono", monospace;
+.wrapper {
+  background: #efecea;
 }
-header {
-  margin-top: 30px;
-  margin-left: 30px;
+.logoCol {
+  background: white;
+  padding-top: 30px;
+}
+.logoCol,
+.hero,
+h2 {
+  font-family: "Nunito", sans-serif;
+}
+
+h2 {
+  font-weight: 500px;
+}
+h3 {
+  opacity: 70%;
+}
+
+.logo {
+  padding-top: 17px;
+}
+.logoCol {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.logoImg {
+  display: block;
 }
 
 .homeLogo {
@@ -14,4 +38,8 @@ header {
   cursor: pointer;
   text-decoration: none;
   opacity: 60%;
+}
+
+.hero {
+  text-align: center;
 }

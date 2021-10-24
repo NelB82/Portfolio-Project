@@ -11,12 +11,11 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;600;700&display=swap"
       rel="stylesheet"
     />
     <script
@@ -25,17 +24,20 @@
     ></script>
     <title>Portfolio</title>
   </head>
-  <body>
+  <body class="wrapper">
     <header>
-      <div class="row">
-        <div class="col-sm-1">
-          <img src="/images/catlogo.svg" alt="Logo" width="150px" />
+      <div class="row logoCol">
+        <div class="col-md-4 d-flex logo">
+          <img
+            src="/images/catlogo.svg"
+            alt="Logo"
+            class="logoImg img-fluid"
+            width="150px"
+          />
+          <a href="#" class="homeLogo"><h2>NB</h2></a>
         </div>
-        <div class="col-sm-2">
-          <a href="#" class="homeLogo"><h1>NB</h1></a>
-        </div>
-        <div class="col-sm-8">
-          <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="col-md-8">
+          <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
               <button
                 class="navbar-toggler"
@@ -70,7 +72,12 @@
           </nav>
         </div>
       </div>
-      <hr />
     </header>
+
+    <div class="hero">
+      <h1 class="mt-5 mb-3">Nele Braun</h1>
+      <h3 class="mb-4">Frontend developer from Germany</h3>
+      <a href="#" class="btn btn-outline-secondary"> Contact me </a>
+    </div>
   </body>
 </html>
