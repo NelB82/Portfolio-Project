@@ -69,3 +69,26 @@ h3 {
   opacity: 60%;
   text-decoration: none;
 }
+
+.footer {
+  justify-content: right;
+  font-size: 14px;
+  opacity: 70%;
+}
+
+@media (max-width: 1366px) {
+  h1 {
+    font-size: 22px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  .illustration {
+    width: 150px;
+  }
+  .IllustrationTitles {
+    text-align: left;
+  }
+  .bt {
+  }
+}
