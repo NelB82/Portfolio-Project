@@ -9,15 +9,19 @@
 .IllustrationTitles,
 .logoCol,
 .hero,
-h2 {
+h2,
+h3 {
   font-family: "Nunito", sans-serif;
 }
 
 h2 {
   font-weight: 500px;
 }
+
 h3 {
+  font-size: 24px !important;
   opacity: 70%;
+  text-align: center;
 }
 
 .logo {
@@ -49,10 +53,6 @@ h3 {
   text-align: center;
 }
 
-h3 {
-  font-size: 24px !important;
-}
-
 .IlusstrationGallery {
   margin-top: 75px;
   margin-bottom: 75px;
@@ -68,6 +68,18 @@ h3 {
   color: black;
   opacity: 60%;
   text-decoration: none;
+}
+
+.aboutMe {
+  text-align: center;
+  line-height: 2;
+  opacity: 70%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#AboutMeTitle {
+  opacity: 100%;
 }
 
 .footer {
@@ -88,7 +100,5 @@ h3 {
   }
   .IllustrationTitles {
     text-align: left;
-  }
-  .bt {
   }
 }

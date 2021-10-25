@@ -22,7 +22,7 @@
       src="https://kit.fontawesome.com/3786e90620.js"
       crossorigin="anonymous"
     ></script>
-    <title>Portfolio</title>
+    <title>Portfolio - Nele Braun</title>
   </head>
   <body class="wrapper">
     <header>
@@ -34,7 +34,7 @@
             class="logoImg img-fluid"
             width="100px"
           />
-          <a href="#" class="homeLogo"><h2>NB</h2></a>
+          <a href="#" class="homeLogo" title="homeLogoButton"><h2>NB</h2></a>
         </div>
         <div class="col-md-8">
           <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
@@ -47,6 +47,7 @@
                 aria-controls="navbarNav"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
+                title="navbarButton"
               >
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -58,16 +59,18 @@
                     >
                   </li>
                   <li class="nav-item pr-5">
-                    <a class="nav-link" href="#">Project</a>
+                    <a class="nav-link" title="projectLink" href="#">Dove</a>
                   </li>
                   <li class="nav-item pr-5">
-                    <a class="nav-link" href="#">Project</a>
+                    <a class="nav-link" title="projectLink" href="#"
+                      >Flamingo</a
+                    >
                   </li>
                   <li class="nav-item pr-5">
-                    <a class="nav-link" href="#">Project</a>
+                    <a class="nav-link" title="projectLink" href="#">Peacock</a>
                   </li>
                   <li class="nav-item pr-5">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" title="contactLink" href="#">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -80,14 +83,23 @@
     <div class="hero">
       <h1 class="mt-5 mb-3">Nele Braun</h1>
       <h3 class="mb-4">Frontend developer from Germany</h3>
-      <a href="#" class="btn btn-outline-secondary"> Contact me </a>
+      <a href="#" class="btn btn-outline-secondary" title="contactButton">
+        Contact me
+      </a>
     </div>
     <div class="container IlusstrationGallery">
       <div class="row">
         <div class="col-sm-4">
-          <img src="/images/Dove.png" alt="DoveIllustration" width="350px" class="illustration"/>
+          <img
+            src="/images/Dove.png"
+            alt="DoveIllustration"
+            width="350px"
+            class="illustration"
+          />
           <div>
-            <a href="#" class="IllustrationTitles"> Dove Illustration</a>
+            <a href="#" title="projectLink" class="IllustrationTitles"
+              >Dove Illustration</a
+            >
           </div>
         </div>
         <div class="col-sm-4">
@@ -98,7 +110,9 @@
             class="illustration"
           />
           <div>
-            <a href="#" class="IllustrationTitles"> Flamingo Illustration</a>
+            <a href="#" title="projectLink" class="IllustrationTitles"
+              >Flamingo Illustration</a
+            >
           </div>
         </div>
         <div class="col-sm-4">
@@ -109,19 +123,33 @@
             class="illustration"
           />
           <div>
-            <a href="#" class="IllustrationTitles"> Peacock Illustration</a>
+            <a href="#" title="projectLink" class="IllustrationTitles"
+              >Peacock Illustration</a
+            >
           </div>
         </div>
       </div>
     </div>
 
+    <div class="aboutMe">
+      <h3 class="AboutMeTitle">About me</h3>
+      Hi everyone! I am Nele Braun, a Frontend Developer from Bremen, Germany.
+      <br />
+      Not only did I create this Homepage, I also made the Illustrations
+      displayed on it.
+      <br />
+      If you want to know more about me feel free to search my Portfolio or
+      contact me for further inqueries.
+    </div>
+
+    <hr />
+
     <footer>
-      <p class="d-flex footer">(c) by Nele Braun
-        <br>
+      <p class="d-flex footer">
+        (c) by Nele Braun
+        <br />
         All Graphics and Illustrations by Nele Braun
-      </div>
       </p>
-      
     </footer>
   </body>
 </html>
