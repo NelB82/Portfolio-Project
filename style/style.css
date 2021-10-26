@@ -71,15 +71,22 @@ h3 {
 }
 
 .aboutMe {
-  text-align: center;
   line-height: 2;
-  opacity: 70%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
+.aboutMe h3 {
+  text-align: left;
+}
+.aboutMe p {
+  opacity: 70%;
+}
 #AboutMeTitle {
   opacity: 100%;
+}
+
+.aboutImage {
+  border-radius: 6px;
 }
 
 .footer {
