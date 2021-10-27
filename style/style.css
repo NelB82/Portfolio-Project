@@ -9,9 +9,14 @@
 .IllustrationTitles,
 .logoCol,
 .hero,
+h1,
 h2,
 h3 {
   font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  text-align: center;
 }
 
 h2 {
@@ -89,8 +94,12 @@ h3 {
   border-radius: 6px;
 }
 
+.projectPicture {
+  display: block;
+  margin: auto;
+}
+
 .footer {
-  justify-content: right;
   font-size: 14px;
   opacity: 70%;
 }
