@@ -94,16 +94,15 @@ h3 {
   border-radius: 6px;
 }
 
-.projectPicture {
-  display: block;
-  margin: auto;
-}
-
 .footer {
   font-size: 14px;
   opacity: 70%;
 }
 
+.work-title {
+  margin-top: 300px;
+  opacity: 70%;
+}
 @media (max-width: 1366px) {
   h1 {
     font-size: 22px !important;
@@ -111,10 +110,25 @@ h3 {
   h3 {
     font-size: 20px !important;
   }
+  p {
+    line-height: 1.5;
+  }
   .illustration {
     width: 150px;
   }
   .IllustrationTitles {
     text-align: left;
+  }
+  .projectPicture {
+    width: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .projectPicture {
+    width: 250px;
+  }
+  .aboutImage {
+    width: 250px;
   }
 }
