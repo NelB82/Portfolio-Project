@@ -58,6 +58,14 @@ h3 {
   text-align: center;
 }
 
+.illustration:hover {
+  cursor: pointer;
+  width: 380px;
+  transition: 300ms ease-in-out;
+  border-style: solid;
+  border-color: grey;
+}
+
 .IlusstrationGallery {
   margin-top: 75px;
   margin-bottom: 75px;
@@ -103,6 +111,12 @@ h3 {
   margin-top: 300px;
   opacity: 70%;
 }
+
+.contact-me {
+  text-align: center;
+  opacity: 70%;
+}
+
 @media (max-width: 1366px) {
   h1 {
     font-size: 22px !important;
