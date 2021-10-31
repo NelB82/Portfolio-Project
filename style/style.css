@@ -53,6 +53,9 @@ h3 {
 .navbarList {
   font-size: 18px;
 }
+.active {
+  opacity: 100%;
+}
 
 .hero {
   text-align: center;
