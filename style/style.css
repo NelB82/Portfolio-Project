@@ -60,6 +60,15 @@ h3 {
 .hero {
   text-align: center;
 }
+.github-project {
+  font-family: "Nunito", sans-serif;
+  opacity: 70%;
+}
+
+.portfolio-btn:hover {
+  font-size: 20px;
+  transition: 200ms ease-in-out;
+}
 
 .illustration:hover {
   cursor: pointer;
