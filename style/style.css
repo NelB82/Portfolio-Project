@@ -65,11 +65,6 @@ h3 {
   opacity: 70%;
 }
 
-.portfolio-btn:hover {
-  font-size: 20px;
-  transition: 200ms ease-in-out;
-}
-
 .illustration:hover {
   cursor: pointer;
   width: 380px;
@@ -151,6 +146,18 @@ h3 {
 .contact-me {
   text-align: center;
   opacity: 70%;
+}
+.linkedIn-link {
+  text-decoration: none;
+  color: black;
+  opacity: 60%;
+}
+.linkedIn-link:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  opacity: 100%;
+  transition: 200ms ease-in-out;
 }
 
 @media (max-width: 1366px) {
