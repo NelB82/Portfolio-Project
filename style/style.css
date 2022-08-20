@@ -134,6 +134,19 @@ h3 {
 .fab:hover {
   font-size: 24px;
 }
+
+.netlifyLink {
+  line-height: 1.5;
+  display: block;
+  text-align: center;
+  color: black;
+}
+
+.netlifyLink:hover {
+  color: black;
+  opacity: 70%;
+  transition: ease-in-out 200ms;
+}
 .work-title {
   margin-top: 300px;
   opacity: 70%;
