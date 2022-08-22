@@ -60,11 +60,21 @@ h3 {
 .hero {
   text-align: center;
 }
+
+.avatar {
+  border-radius: 20;
+  opacity: 80%;
+}
 .github-project {
   font-family: "Nunito", sans-serif;
   opacity: 70%;
 }
 
+.carousel {
+  display: block;
+
+  width: 400px;
+}
 .illustration:hover {
   cursor: pointer;
   width: 380px;
