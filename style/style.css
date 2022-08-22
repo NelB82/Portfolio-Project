@@ -120,12 +120,6 @@ h3 {
   border-radius: 6px;
 }
 
-.background {
-  background-image: url("/images/Flamingo.png");
-  background-size: 300px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 .footer {
   font-family: "Nunito", sans-serif;
   font-size: 14px;
