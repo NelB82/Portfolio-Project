@@ -119,6 +119,9 @@ h3 {
 .aboutImage {
   border-radius: 6px;
 }
+.indexImage {
+  border-radius: 6px;
+}
 
 .footer {
   font-family: "Nunito", sans-serif;
